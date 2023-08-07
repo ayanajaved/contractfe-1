@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right top, #051937, #004a71, #008089, #00b475, #b0de49);
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.box1{
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  resize: none;
+  background-color: rgb(255, 255, 255);
+  border: 1.5px solid black;
+}
+
+.bigBox {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  overflow: hidden;
+}
+
+.input,
+.box {
+  flex: 1;
+  padding: 10px;
+  resize: none;
+  border: none;
+  background-color: #f8f8f8;
+}
+
+.input {
+  border-bottom: 1px solid #ccc;
+}
+
+.box {
+  height: 100px;
+  border-top: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.button {
+  width: 100%;
+  height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .big-box {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+#websitePitch{
+  color: rgb(11, 33, 236);
+}
+
+#wordCount{
+  color: rgb(210, 213, 235);
+  font: italic;
+}
