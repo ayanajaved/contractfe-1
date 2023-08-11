@@ -5,7 +5,6 @@ import Axios from 'axios';
 
 
 const url = "http://18.116.174.228:3001/products";
-const websitePitch = "Let's simplify law jargons becuase Law Is For Everyone.";
 
 class Contract extends Component {
 
@@ -44,7 +43,8 @@ class Contract extends Component {
     render() {
     return (
       <div>
-        <p id="websitePitch">{websitePitch}</p>
+        <p className="header1">Let's simplify law jargons becuase</p>
+        <p className="header2">Law Is For Everyone.</p>
      <div className="bigBox">
      <div>
    
